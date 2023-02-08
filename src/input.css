@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.rj-hero-shadow {
+    text-shadow: 1px 1px 3px #111
+}
+
+.rj-philosophy {
+    @apply mb-3 italic indent-4
+}

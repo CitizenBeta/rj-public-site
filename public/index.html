@@ -1,30 +1,115 @@
 <!doctype html>
-<html>
+<html lang="en" data-theme="business">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link href="output.css" rel="stylesheet">
-    <title>My Sports Page</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <title>Ray Jones Weightlifting</title>
+    <meta name="description"
+          content="USAW Senior International Coach offering remote athlete programming and coach mentoring.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"
+          type="text/css">
 </head>
-<body>
+<body class="mb-16">
 <div class="hero min-h-screen relative" style="background-image: url(./img/cover3.jpg);">
-    <div class="hero-overlay bg-opacity-60"></div>
-    <div class="hero-content text-center text-neutral-content">
+    <div class="hero-overlay bg-black bg-opacity-80"></div>
+    <div class="hero-content text-center">
         <div class="max-w-md">
             <h2 class="text-2xl">Team Beaufort's</h2>
             <h1 class="mb-5 text-5xl font-bold">Coach Ray Jones</h1>
-            <p class="mb-5">Team USA Senior International Coach
-                <br>Personal Coach of Olympians
+            <p class="pb-2">Personal Coach of Olympians
                 <br>CJ Cummings and Hala Fattouh Paiva</p>
+            <p class="pb-16">Team USA Senior International Coach</p>
         </div>
     </div>
-    <div class="absolute bottom-8">
-        <a class="btn" href="#philosophy">
-            <i class="fa fa-angle-down fa-fw"></i>
+    <div class="absolute bottom-24">
+        <a class="btn btn-primary btn-sm" href="#philosophy">
+            Our Philosophy <i class="fa fa-angle-down fa-fw"></i>
         </a>
     </div>
+</div>
+<div id="philosophy" class="py-8 px-4 flex justify-center">
+    <div class="md:w-1/2">
+        <h1 class="text-2xl mb-4 text-center">Our Philosophy</h1>
+        <p class="rj-philosophy">A good coach is content to be in the background, working hard
+            behind the scenes, and allowing the athlete to enjoy the spotlight.</p>
+        <p class="rj-philosophy">The mission is to help each athlete reach their full
+            potential: to be the best lifter they can be on the platform, and to be the best person they can be
+            off the platform.</p>
+        <p class="rj-philosophy">The gym is a place to work hard. Each day of training should
+            be as fun and as challenging as possible.</p>
+        <p class="rj-philosophy">Every day is a new opportunity for every athlete to gain more
+            confidence, strength, speed, balance, and technique.</p>
+        <p class="rj-philosophy">Each workout should be tailored to the athlete's individual
+            needs. Every rep is important. Focus on the one in front of you.</p>
+        <p class="rj-philosophy">Staying healthy is just as important as getting PRs.</p>
+        <p class="rj-philosophy">Everything is about being consistent in training. Openers
+            should be destroyed. Everything else will take care of itself.</p>
+        <p class="rj-philosophy">A good athlete should be coachable. A great athlete should
+            be humble.</p>
+    </div>
+</div>
+<div id="athletes" class="py-8 px-4 bg-primary">
+    <h1 class="text-2xl mb-4 text-center">Featured Athletes</h1>
+    <div class="grid md:grid-cols-6 gap-4">
+        <div class="card bg-base-100 shadow-xl md:col-start-2 md:col-span-2">
+            <figure><img src="./img/athlete-cj-720.jpg"/></figure>
+            <div class="card-body">
+                <h2 class="card-title w-full flex justify-between">
+                    <span>CJ Cummings</span>
+                    <a href="https://www.instagram.com/cj__cummings" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </h2>
+                <ul class="list-disc text-sm">
+                    <li>2020 Olympian</li>
+                    <li>USAW National Champion</li>
+                    <li>USAW National Junior Champion</li>
+                    <li>USAW National Youth Champion</li>
+                    <li>IWF Youth World Record Holder</li>
+                    <li>2x IWF Youth World Champion</li>
+                    <li>3x IWF Junior World Champion</li>
+                    <li>7x IWF Gold Medals</li>
+                    <li>3x IWF Pan-American Records</li>
+                    <li>25x USAW National Records</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl md:col-span-2">
+            <figure><img src="./img/athlete-hala.jpg"/></figure>
+            <div class="card-body">
+                <h2 class="card-title w-full flex justify-between">
+                    <span>Hala Fattouh Paiva</span>
+                    <a href="https://www.instagram.com/mahassenhala" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </h2>
+                <ul class="list-disc text-sm">
+                    <li>2020 Olympian</li>
+                    <li>2019 Arab Champion</li>
+                    <li>2018 Mediterranean Games Silver Medalist</li>
+                    <li>6x Lebanese IWF World Team Member</li>
+                    <li>2007, 2013, 2014 USAW National Medalist</li>
+                    <li>2013 USAW National University Champion</li>
+                    <li>2008 USAW National Junior Champion</li>
+                    <li>15x USAW National Medals</li>
+                    <li>13x IWF International Medals</li>
+                    <li>12x Lebanese National Records</li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid md:grid-cols-6 gap-4">
+    </div>
+</div>
+<div class="btm-nav">
+    <a class="active" href="#athletes">
+        <span class="inline-block"><i class="fa-solid fa-medal inline-block pr-0.5"></i> Featured Athletes</span>
+    </a>
+    <button class="active">
+            <span class="inline-block"><i
+                    class="fa-solid fa-mobile-screen inline-block pr-0.5"></i> Remote Coaching</span>
+    </button>
+    <button class="active">
+        <span class="inline-block"><i
+                class="fa-solid fa-handshake-angle inline-block pr-0.5"></i> Coach Mentorship</span>
+    </button>
 </div>
 </body>
 </html>
