@@ -6,6 +6,6 @@
     "daisyui": "^2.50.0"
   },
   "scripts": {
-    "watch-css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "watch-css": "npx tailwindcss -i ./src/input.css -o docs/output.css --watch"
   }
 }
